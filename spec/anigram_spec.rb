@@ -1,2 +1,2 @@
-require ('rspec')
-require ('anigram')
+# require ('rspec')
+# require ('anigram')
