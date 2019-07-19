@@ -6,18 +6,25 @@ attr_accessor(:word)
 def initialize
 @word = word
 end
-
 def anigram(word)
-@word = "abcdefg"
-if @word.include? "cde"
-puts "String includes 'cde'"
+array1 = []
+array2 = []
+
+array1.push(word)
+array2.push(word)
+if word == word
+  p "test"
+end
+end
+binding.pry
+
 end
 
 
 
-
-end
-
-
-word = gets.chomp
 anigram_machine = AnigramMachine.new()
+puts 'enter first word'
+word = gets.chomp
+puts 'enter second word'
+word = gets.chomp
+anigram_machine.anigram(word)
