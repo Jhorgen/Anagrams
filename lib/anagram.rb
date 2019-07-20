@@ -4,15 +4,15 @@ class AnagramMachine
 attr_accessor(:word, :word1)
 
 def initialize(word, word1)
-@word = word.downcase.split(//)
-@word1 = word1.downcase.split(//)
+@word = word.downcase.split(//).sort
+@word1 = word1.downcase.split(//).sort
 end
 
 def anagram(word, word1)
   p @word
   p @word1
 if @word == @word1
-  p "These arrays are the same!"
+  p "This is an anagram"
 end
 end
 
