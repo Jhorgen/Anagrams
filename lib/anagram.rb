@@ -8,11 +8,11 @@ def initialize(word, word1)
 @word1 = word1.downcase.split(//)
 end
 
-def anagram()
-  p word
-  p word1
+def anagram(word, word1)
+  p @word
+  p @word1
 if @word == @word1
-  p "These words are anagrams!"
+  p "These arrays are the same!"
 end
 end
 
