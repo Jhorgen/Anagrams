@@ -4,8 +4,8 @@ class AnagramMachine
 attr_accessor(:word, :word1)
 
 def initialize(word, word1)
-@word = word.downcase.split(//).sort
-@word1 = word1.downcase.split(//).sort
+@word = word.downcase.gsub(/[^a-z0-9]/i, '').split(//).sort
+@word1 = word1.downcase.gsub(/[^a-z0-9]/i, '').split(//).sort
 end
 
 def anagram(word, word1)
