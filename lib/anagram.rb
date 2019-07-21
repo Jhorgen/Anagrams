@@ -9,14 +9,22 @@ def initialize(word, word1)
 end
 
 def anagram(word, word1)
-  p @word
-  p @word1
+  if  @word.any?{ |x| ["a", "e", "i", "o", "u"].include?(x) } || @word1.any?{ |x| ["a", "e", "i", "o", "u"].include?(x) }
+    p "This is a word"
+    p @word
+    p @word1
+  else
+    return p "Not a word"
+  end
+
 if @word == @word1
   p "This is an anagram"
 end
 end
-
 end
+
+
+
 
 # puts 'enter first word'
 # word = gets.chomp
