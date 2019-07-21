@@ -16,8 +16,9 @@ def anagram(word, word1)
   else
     return p "Not a word"
   end
-
-if @word == @word1
+if @word != @word1
+  p "You have submitted an antigram, nothing matches!"
+elsif @word == @word1
   p "This is an anagram"
 end
 end
