@@ -14,12 +14,12 @@ describe('anagram') do
     expect(test_this.anagram('eat', 'tea')).to(eq("This is an anagram"))
   end
   it("should check for vowels") do
-    test_this = AnagramMachine.new('eat', 'tea')
-    expect(test_this.anagram('eat', 'tea')).to(eq("This is a word"))
+    test_this = AnagramMachine.new('tea', 'eat')
+    expect(test_this.vow_check()).to(eq("This is a word"))
   end
   it("should end the script when an invalid word is entered") do
-    test_this = AnagramMachine.new('sfs', 'sfs')
-    expect(test_this.anagram('sfs', 'sfs')).to(eq("Not a word"))
+    test_this = AnagramMachine.new('sdf', 'sdf')
+    expect(test_this.vow_check()).to(eq("Not a word"))
   end
   # it("should check if two words are anagrams") do
   #   test_this = AnagramMachine.new('eat', 'tea')

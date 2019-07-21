@@ -5,3 +5,5 @@ puts "enter second word"
 word1 = gets.chomp
 anagram_machine = AnagramMachine.new(word, word1)
 anagram_machine.anagram(word, word1)
+anagram_machine.vow_check()
+anagram_machine.antigram_check()
