@@ -3,10 +3,11 @@
 By _Josh Horgen, 2019_
 
 ## _Setup/Installation Requirements_
-#### Step 1: Visit https://github.com/Jhorgen/project7
+#### Step 1: Visit https://github.com/Jhorgen/Anagrams
 #### Step 2: Click the green "Clone or Download" button and copy the link.
 #### Step 3: Open Git Bash and use the command: "git clone _____URL_____"
-#### _Alternatively_, visit https://jhorgen.github.io/Project7 for a preview of my project.
+#### Step 4: Open and type "bundle install"
+#### Step 5: Run the program by typing "rspec"
 
 
 ## _Description_
