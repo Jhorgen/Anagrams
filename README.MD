@@ -19,7 +19,7 @@ This app was made with Ruby and is designed to test for anagrams. Two words are 
 | -------- | ----- | ------ |
 |Tests for an anagram|tea, aet |True / "This is an anagram" |
 |Tests for a valid word by checking for vowels |sdf |False / "Not a valid word" |
-|Tests for antigrams|run, save|True "No letters in common" |
+|Tests for antigrams|run, save|True / "No letters in common" |
 
 
 ### _Languages, frameworks, libraries, etc!_

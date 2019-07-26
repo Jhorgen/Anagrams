@@ -38,10 +38,3 @@ class AnagramMachine
     return "This neither an antigram or anagram"
   end
 end
-
-
-
-# if @word != @word1
-#   p "You have submitted an antigram, nothing matches!"
-# else
-# end
