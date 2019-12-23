@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 To test or run on your machine, follow the step-by-step instructions provided below.
 
 ```
-$cd anagrams
+$cd anagram-checker
 
 $bundle i
 
