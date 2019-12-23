@@ -2,6 +2,9 @@
   
   Anagram word checker allows a user to check if two words are anagrams. Simply input two words via the prompts.
 
+![](anagrams-app.png)
+![](anagrams-test.png)
+  
 ## _Specs_
 
 | Behavior | Input | Output |
