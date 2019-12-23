@@ -1,4 +1,4 @@
-# _Anagram Machine_ Anagram word checker
+# _Anagram Machine_ - Anagram word checker
   
   Anagram word checker allows a user to check if two words are anagrams. Simply input two words via the prompts.
 
