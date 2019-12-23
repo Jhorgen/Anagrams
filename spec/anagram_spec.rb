@@ -5,21 +5,21 @@ describe('anagram') do
 
   it("should check if two words are anagrams") do
     test_this = AnagramMachine.new('eat', 'tea')
-    expect(test_this.anagram()).to(eq("This is an anagram"))
+    expect(test_this.anagram('eat', 'tea')).to(eq("This is an anagram"))
   end
 
   it("should check if two words are not anagrams") do
     test_this = AnagramMachine.new('not', 'same')
-    expect(test_this.anagram()).to(eq("They don't seem to match.."))
+    expect(test_this.anagram('not', 'same')).to(eq("They don't seem to match.."))
   end
 
   it("should check for vowels") do
     test_this = AnagramMachine.new('tea', 'eat')
-    expect(test_this.vow_check()).to(eq("This is a word"))
+    expect(test_this.vow_check()).to(eq("This is a word. (passed word check)"))
   end
   it("should check for invalid words") do
     test_this = AnagramMachine.new('sdf', 'sdf')
-    expect(test_this.vow_check()).to(eq("Not a word"))
+    expect(test_this.vow_check()).to(eq("Not a word, please try again. (failed word check)"))
   end
   it("should check for antigrams") do
     test_this = AnagramMachine.new('test', 'fail')
